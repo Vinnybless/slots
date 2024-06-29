@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: black;
+  background-image: url(../img/back.jpg);
+  background-position: top;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 555;
+  margin-top: 4%;
+  margin-bottom: 6%;
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* ADD THE FLICKER IN JS IF PLAYER WINS */
+@keyframes flicker {
+    0% { opacity: 0%; }
+    25% { opacity: 25%; }
+    50% { opacity: 50%; }
+    100% { opacity: 100%; }
+}
+
+.msg-container {
+  text-align: center;
+  background: black;
+  color: white;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  border: 1rem dotted rgb(255, 0, 0);
+  font-family: fantasy;
+}
+
+.main-container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  font-size: 4rem;
+  font-family: fantasy;
+}
+
+.left-container {
+  background: rgb(22, 22, 22);
+  color: whitesmoke;
+  width: 32%;
+  padding: 5rem;
+  border: 0.275rem solid white;
+}
+
+.mid-container {
+  background: whitesmoke;
+  color: rgb(22, 22, 22);
+  width: 32%;
+  padding: 5rem;
+  border: 0.275rem solid white;
+}
+
+.right-container {
+  background: rgb(22, 22, 22);
+  color: whitesmoke;
+  width: 32%;
+  padding: 5rem;
+  border: 0.275rem solid white;
+}
+
+.btn-container {
+  background-image: url(../img/marble.jpg);
+  width: fit-content;
+  text-align: center;
+  border: 0.35rem double rgb(31, 0, 0);
+  margin: auto;
+  padding: 3rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.725rem;
+}
